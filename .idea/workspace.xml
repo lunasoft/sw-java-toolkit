@@ -1,8 +1,136 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="sw-java-toolkit" />
+    </artifacts-to-build>
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="73b4f5c8-8a11-4784-89b8-89f1bd9749d6" name="Default" comment="" />
+    <list default="true" id="74c63576-9f88-4846-9ff4-9bb6dd6e2f2f" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/artifacts/sw_java_toolkit.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_annotations_2_9_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_core_2_9_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_databind_2_9_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_dataformat_jackson_dataformat_xml_2_9_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_module_jackson_module_jaxb_annotations_2_9_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_woodstox_woodstox_core_5_0_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_4_12.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_servicemix_bundles_org_apache_servicemix_bundles_not_yet_commons_ssl_0_3_11_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_xmlbeans_xmlbeans_2_3_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_codehaus_woodstox_stax2_api_3_1_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__stax_stax_api_1_0_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/com_sun_org_apache_xml_internal_resolver_20050927.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/org_apache_maven_plugins_maven_compiler_plugin_2_5_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/org_apache_servicemix_bundles_org_apache_servicemix_bundles_not_yet_commons_ssl_0_3_11_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/sw_java_toolkit/sw-java-toolkit.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Resources/cfdv33.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Sign/Sign.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/ComercioExterior11.xslt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/Pagos10.xslt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/TuristaPasajeroExtranjero.xslt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/aerolineas.xslt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/cadenaoriginal_3_3.xslt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/certificadodedestruccion.xslt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/cfdiregistrofiscal.xslt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/cfdv33.xsd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/consumodecombustibles.xslt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/detallista.xslt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/divisas.xslt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/donat11.xslt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/ecc11.xslt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/iedu.xslt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/implocal.xslt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/ine11.xslt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/leyendasFisc.xslt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/nomina12.xslt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/notariospublicos.xslt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/obrasarteantiguedades.xslt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/pagoenespecie.xslt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/pfic.xslt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/renovacionysustitucionvehiculos.xslt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/servicioparcialconstruccion.xslt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/terceros11.xslt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/utilerias.xslt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/valesdedespensa.xslt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/vehiculousado.xslt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/ventavehiculos11.xslt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/Resources/CSD_Pruebas_CFDI_LAN7008173R5.cer" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/Resources/CSD_Pruebas_CFDI_LAN7008173R5.key" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/SW_Toolkit_Java_UT.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sw-java-toolkit.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/apidocs/Sign/Sign.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/apidocs/Sign/class-use/Sign.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/apidocs/Sign/package-frame.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/apidocs/Sign/package-summary.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/apidocs/Sign/package-tree.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/apidocs/Sign/package-use.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/apidocs/allclasses-frame.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/apidocs/allclasses-noframe.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/apidocs/constant-values.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/apidocs/deprecated-list.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/apidocs/help-doc.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/apidocs/index-all.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/apidocs/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/apidocs/overview-tree.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/apidocs/package-list" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/apidocs/script.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/apidocs/stylesheet.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/Sign/Sign.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/assets/ComercioExterior11.xslt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/assets/Pagos10.xslt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/assets/TuristaPasajeroExtranjero.xslt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/assets/aerolineas.xslt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/assets/cadenaoriginal_3_3.xslt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/assets/certificadodedestruccion.xslt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/assets/cfdiregistrofiscal.xslt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/assets/cfdv33.xsd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/assets/consumodecombustibles.xslt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/assets/detallista.xslt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/assets/divisas.xslt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/assets/donat11.xslt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/assets/ecc11.xslt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/assets/iedu.xslt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/assets/implocal.xslt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/assets/ine11.xslt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/assets/leyendasFisc.xslt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/assets/nomina12.xslt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/assets/notariospublicos.xslt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/assets/obrasarteantiguedades.xslt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/assets/pagoenespecie.xslt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/assets/pfic.xslt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/assets/renovacionysustitucionvehiculos.xslt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/assets/servicioparcialconstruccion.xslt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/assets/terceros11.xslt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/assets/utilerias.xslt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/assets/valesdedespensa.xslt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/assets/vehiculousado.xslt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/assets/ventavehiculos11.xslt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/javadoc-bundle-options/javadoc-options-javadoc-resources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/javadoc-bundle-options/package-list" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/maven-archiver/pom.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/sw-java-toolkit-0.0.1-jar-with-dependencies.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/sw-java-toolkit-0.0.1-javadoc.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/sw-java-toolkit-0.0.1-sources.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/sw-java-toolkit-0.0.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/CSD_Pruebas_CFDI_LAN7008173R5.cer" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/CSD_Pruebas_CFDI_LAN7008173R5.key" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/SW_Toolkit_Java_UT.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sw-java-toolkit/.idea/description.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sw-java-toolkit/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sw-java-toolkit/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sw-java-toolkit/.idea/project-template.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sw-java-toolkit/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sw-java-toolkit/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sw-java-toolkit/src/com/company/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sw-java-toolkit/sw-java-toolkit.iml" beforeDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
+    <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -10,11 +138,79 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/sw_java_toolkit$Unnamed.ic" NAME="Unnamed Coverage Results" MODIFIED="1527527915506" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+  </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="Sign.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/Sign/Sign.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="374">
+              <caret line="50" column="9" selection-start-line="50" selection-start-column="9" selection-end-line="50" selection-end-column="9" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#3312#3313#0" expanded="true" />
+                <element signature="e#3339#3340#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SW_Toolkit_Java_UT.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/SW_Toolkit_Java_UT.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="238">
+              <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="2057">
+              <caret line="190" column="19" lean-forward="true" selection-start-line="190" selection-start-column="19" selection-end-line="190" selection-end-column="19" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>org.apache.maven.plugins:maven-compiler-plugin:2.5.1:compile</find>
+      <find>base64</find>
+    </findStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/Builder/Builder.java" />
+        <option value="$PROJECT_DIR$/src/Sign/Sign.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Crypto/Crypto.java" />
+        <option value="$PROJECT_DIR$/sw-java-toolkit/src/SWToolkitJava/Main.java" />
+        <option value="$PROJECT_DIR$/src/test/java/SW_Toolkit_Java_UT.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/Sign/Sign.java" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenRunner">
+    <option name="jreName" value="#JAVA_INTERNAL" />
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="1912" />
@@ -28,13 +224,40 @@
     </navigator>
     <panes>
       <pane id="Scope" />
-      <pane id="ProjectPane" />
-      <pane id="AndroidView" />
       <pane id="PackagesPane" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="sw-java-toolkit" type="b2602c69:ProjectViewProjectNode" />
+              <item name="sw-java-toolkit" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/sw-java-toolkit" />
+    <property name="Downloaded.Files.Path.Enabled" value="false" />
+    <property name="Repository.Attach.JavaDocs" value="false" />
+    <property name="Repository.Attach.Sources" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/Resources/cfdv33.jar!/" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="reference.settings.project.maven.runner" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\SMARTERWEB\Documents\sw-java-toolkit\src\test\Resources" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\SMARTERWEB\Documents\sw-java-toolkit\src\main\resources" />
+      <recent name="C:\Users\SMARTERWEB\Documents\sw-java-toolkit" />
+      <recent name="C:\Users\SMARTERWEB\Documents\sw-java-toolkit\src\Resources" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -49,12 +272,46 @@
     </option>
   </component>
   <component name="RunManager">
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="com.company.Main" />
-      <module name="sw-java-toolkit" />
-      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
-      <RunnerSettings RunnerId="Run" />
-      <ConfigurationWrapper RunnerId="Run" />
+    <configuration default="true" type="Application" factoryName="Application">
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration default="true" type="TestNG" factoryName="TestNG">
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <properties />
+      <listeners />
     </configuration>
   </component>
   <component name="SvnConfiguration">
@@ -62,54 +319,281 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="73b4f5c8-8a11-4784-89b8-89f1bd9749d6" name="Default" comment="" />
-      <created>1527107494973</created>
+      <changelist id="74c63576-9f88-4846-9ff4-9bb6dd6e2f2f" name="Default" comment="" />
+      <created>1527183809007</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1527107494973</updated>
+      <updated>1527183809007</updated>
     </task>
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="1912" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info anchor="right" id="Palette" />
+      <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="right" id="Palette&#9;" />
-      <window_info id="Image Layers" />
-      <window_info anchor="right" id="Capture Analysis" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
-      <window_info anchor="right" id="Maven Projects" />
-      <window_info anchor="bottom" id="Version Control" />
-      <window_info anchor="bottom" id="Run" order="2" />
-      <window_info anchor="bottom" id="Terminal" />
-      <window_info id="Capture Tool" />
-      <window_info id="Designer" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
+      <window_info anchor="bottom" id="Messages" order="7" />
+      <window_info anchor="right" id="Palette&#9;" order="3" />
+      <window_info id="Image Layers" order="2" />
+      <window_info anchor="right" id="Capture Analysis" order="3" />
+      <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
+      <window_info anchor="right" id="Maven Projects" order="3" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32943678" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.25823593" />
+      <window_info id="Capture Tool" order="2" />
+      <window_info id="Designer" order="2" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.1765625" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info id="UI Designer" />
-      <window_info anchor="right" id="Theme Preview" />
-      <window_info id="Favorites" side_tool="true" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info id="UI Designer" order="2" />
+      <window_info anchor="right" id="Theme Preview" order="3" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.3995749" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="right" id="Coverage" order="4" side_tool="true" visible="true" weight="0.3296875" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="1" />
     </layout>
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <option name="time" value="1" />
+    </breakpoint-manager>
+  </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/com/company/Main.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/Sign/Sign.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
+        <state relative-caret-position="1292">
+          <caret line="92" lean-forward="true" selection-start-line="89" selection-start-column="4" selection-end-line="92" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#3312#3313#0" expanded="true" />
+            <element signature="e#3339#3340#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/SW_Toolkit_Java_UT.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="18" column="1" lean-forward="true" selection-start-line="18" selection-start-column="1" selection-end-line="18" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sw-java-toolkit/src/SWToolkitJava/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Sign/Sign.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="663">
+          <caret line="53" lean-forward="true" selection-start-line="53" selection-end-line="53" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#3312#3313#0" expanded="true" />
+            <element signature="e#3339#3340#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1394">
+          <caret line="82" column="62" selection-start-line="82" selection-start-column="62" selection-end-line="82" selection-end-column="62" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Sign/Sign.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret lean-forward="true" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#3312#3313#0" expanded="true" />
+            <element signature="e#3339#3340#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="13" lean-forward="true" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Sign/Sign.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="867">
+          <caret line="51" column="89" selection-start-line="51" selection-start-column="89" selection-end-line="51" selection-end-column="89" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#3312#3313#0" expanded="true" />
+            <element signature="e#3339#3340#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2737">
+          <caret line="161" column="36" selection-start-line="161" selection-start-column="36" selection-end-line="161" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Sign/Sign.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="867">
+          <caret line="51" column="89" selection-start-line="51" selection-start-column="89" selection-end-line="51" selection-end-column="89" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#3312#3313#0" expanded="true" />
+            <element signature="e#3339#3340#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2737">
+          <caret line="161" column="36" selection-start-line="161" selection-start-column="36" selection-end-line="161" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Builder/Builder.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/Crypto/Crypto.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/resources/assets/Sign.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1734" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sw-java-toolkit/src/SWToolkitJava/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="41" lean-forward="true" selection-start-line="11" selection-start-column="41" selection-end-line="11" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2057">
+          <caret line="190" column="19" lean-forward="true" selection-start-line="190" selection-start-column="19" selection-end-line="190" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/SW_Toolkit_Java_UT.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Sign/Sign.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="50" column="9" selection-start-line="50" selection-start-column="9" selection-end-line="50" selection-end-column="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#3312#3313#0" expanded="true" />
+            <element signature="e#3339#3340#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <last-edited>sw-java-toolkit</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.5" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>No facets are configured</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>sw-java-toolkit</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>org.apache.servicemix.bundles:org.apache.servicemix.bundles.not-yet-commons-ssl:0.3.11_1</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
   </component>
 </project>
