@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="sw-java-toolkit">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/out/artifacts/sw_java_toolkit/sw-java-toolkit.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

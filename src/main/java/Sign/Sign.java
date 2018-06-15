@@ -1,7 +1,6 @@
 package Sign;
 
 import org.apache.commons.ssl.PKCS8Key;
-import org.apache.xmlbeans.impl.util.Base64;
 import javax.xml.bind.DatatypeConverter;
 import javax.xml.transform.*;
 import javax.xml.transform.stream.StreamResult;
@@ -18,13 +17,15 @@ import java.security.cert.CertificateFactory;
 import java.security.cert.X509Certificate;
 import java.text.ParseException;
 import java.text.SimpleDateFormat;
+import com.sun.org.apache.xerces.internal.impl.dv.util.Base64;
+import javax.xml.bind.DatatypeConverter;
 
 import static javax.xml.bind.DatatypeConverter.parseBase64Binary;
 import static javax.xml.bind.DatatypeConverter.printBase64Binary;
 
 public class Sign {
 
-    public static String getSello(String cadenaOriginal, String KeyBase64, String passwordLlave) throws GeneralSecurityException, IOException {
+    public static String signGet(String cadenaOriginal, String KeyBase64, String passwordLlave) throws GeneralSecurityException, IOException {
         InputStream myInputStream = new ByteArrayInputStream(parseBase64Binary(KeyBase64));
         PKCS8Key pkcs8 = new PKCS8Key(myInputStream, passwordLlave.toCharArray());
         java.security.PrivateKey pk = pkcs8.getPrivateKey();
@@ -34,7 +35,7 @@ public class Sign {
         return printBase64Binary(signature.sign());
     }
 
-    public String getCadena(String xml) {
+    public String originalStringGet(String xml) {
         try {
             TransformerFactory transformerFactory = TransformerFactory.newInstance();
             Source xslt = new StreamSource(new File("src/test/java/Tests/assets/cadenaoriginal_3_3.xslt"));
@@ -52,26 +53,50 @@ public class Sign {
         return null;
     }
 
-    public static X509Certificate getX509Certificate(final File certificateFile) throws CertificateException, IOException, java.security.cert.CertificateException{
+    public static X509Certificate certificateGetX509(final File certificateFile) throws CertificateException, IOException, java.security.cert.CertificateException{
         try (FileInputStream is = new FileInputStream(certificateFile)) {
             CertificateFactory cf = CertificateFactory.getInstance("X.509");
             return (X509Certificate) cf.generateCertificate(is);
         }
     }
 
-    public static String getCertificadoBase64(final X509Certificate cert) throws CertificateEncodingException {
-        return Base64.encode(cert.getEncoded()).toString();
+    public static String certificateBase64Get(final X509Certificate cert) throws CertificateEncodingException {
+      return Base64.encode(cert.getEncoded());
     }
 
-    public static String getKeyBase64(final String key) throws IOException {
-            return Base64.encode(Files.readAllBytes(Paths.get(key))).toString();
+    private static byte[] loadFile(File file) throws IOException {
+	    InputStream is = new FileInputStream(file);
+
+	    long length = file.length();
+	    if (length > Integer.MAX_VALUE) {
+	        // File is too large
+	    }
+	    byte[] bytes = new byte[(int)length];
+	    
+	    int offset = 0;
+	    int numRead = 0;
+	    while (offset < bytes.length
+	           && (numRead=is.read(bytes, offset, bytes.length-offset)) >= 0) {
+	        offset += numRead;
+	    }
+
+	    if (offset < bytes.length) {
+	        throw new IOException("Could not completely read file "+file.getName());
+	    }
+
+	    is.close();
+	    return bytes;
+    }
+    
+    public static String keyBase64get(final String key) throws IOException {
+        return DatatypeConverter.printBase64Binary(new String(Files.readAllBytes( Paths.get(key))).getBytes());
     }
 
-    public static X509Certificate getAtributosCertificado(final X509Certificate cert){
+    public static X509Certificate attributesCertificateGet(final X509Certificate cert){
         return cert;
     }
 
-    public static String getNoCertificado(final X509Certificate cert){
+    public static String noCertificateGet(final X509Certificate cert){
         BigInteger Serial = cert.getSerialNumber();
         byte[] sArr = Serial.toByteArray();
         StringBuilder buffer = new StringBuilder();
@@ -81,19 +106,19 @@ public class Sign {
         return buffer.toString();
     }
 
-    public static String getVigenciaInicio(final X509Certificate cert) throws ParseException {
+    public static String validityStartGet(final X509Certificate cert) throws ParseException {
         SimpleDateFormat dateFormat = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss");
         return dateFormat.format(cert.getNotBefore());
     }
 
-    public static String getVigenciaFinal(final X509Certificate cert) throws ParseException{
+    public static String validityEndGet(final X509Certificate cert) throws ParseException{
         SimpleDateFormat dateFormat = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss");
         return dateFormat.format(cert.getNotAfter());
     }
 
-    public static String getRazonSocial(final X509Certificate cert){
+    public static String bussinesNameGet(final X509Certificate cert){
         String razonSocial;
-        String certif = getAtributosCertificado(cert).toString();
+        String certif = attributesCertificateGet(cert).toString();
         String[] parser = certif.trim().split(",");
         razonSocial = parser[3];
         parser = razonSocial.split("=");
@@ -102,9 +127,9 @@ public class Sign {
         return parser[0].trim();
     }
 
-    public static String getRFC(final X509Certificate cert){
+    public static String rfcGet(final X509Certificate cert){
         String razonSocial;
-        String certif = getAtributosCertificado(cert).toString();
+        String certif = attributesCertificateGet(cert).toString();
         String[] parser = certif.split(",");
         razonSocial = parser[2];
         parser = razonSocial.split("=");
