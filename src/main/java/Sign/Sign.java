@@ -63,30 +63,6 @@ public class Sign {
     public static String certificateBase64Get(final X509Certificate cert) throws CertificateEncodingException {
       return Base64.encode(cert.getEncoded());
     }
-
-    private static byte[] loadFile(File file) throws IOException {
-	    InputStream is = new FileInputStream(file);
-
-	    long length = file.length();
-	    if (length > Integer.MAX_VALUE) {
-	        // File is too large
-	    }
-	    byte[] bytes = new byte[(int)length];
-	    
-	    int offset = 0;
-	    int numRead = 0;
-	    while (offset < bytes.length
-	           && (numRead=is.read(bytes, offset, bytes.length-offset)) >= 0) {
-	        offset += numRead;
-	    }
-
-	    if (offset < bytes.length) {
-	        throw new IOException("Could not completely read file "+file.getName());
-	    }
-
-	    is.close();
-	    return bytes;
-    }
     
     public static String keyBase64get(final String key) throws IOException {
         return DatatypeConverter.printBase64Binary(new String(Files.readAllBytes( Paths.get(key))).getBytes());
@@ -98,12 +74,7 @@ public class Sign {
 
     public static String noCertificateGet(final X509Certificate cert){
         BigInteger Serial = cert.getSerialNumber();
-        byte[] sArr = Serial.toByteArray();
-        StringBuilder buffer = new StringBuilder();
-        for (int i = 0; i < sArr.length; i++){
-            buffer.append((char) sArr[i]);
-        }
-        return buffer.toString();
+        return new String(Serial.toByteArray());
     }
 
     public static String validityStartGet(final X509Certificate cert) throws ParseException {

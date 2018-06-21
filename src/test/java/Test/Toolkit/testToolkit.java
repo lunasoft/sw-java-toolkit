@@ -17,7 +17,6 @@ public class testToolkit extends TestCase{
     
     
     public void testBase64_Key_Encode() throws Exception {
-
         String filePath = new File("").getAbsolutePath();
         String concatKey = filePath.concat("\\src\\test\\Resources\\CSD_Pruebas_CFDI_LAN7008173R5.key");
         String Key = Sign.keyBase64get(concatKey);
@@ -25,7 +24,6 @@ public class testToolkit extends TestCase{
     }
     
     public void testBase64_Cer_Encode() throws Exception {
-
         String filePath = new File("").getAbsolutePath();
         String concatCert = filePath.concat("\\src\\test\\Resources\\CSD_Pruebas_CFDI_LAN7008173R5.cer");
         String Cert = Sign.certificateBase64Get(Sign.certificateGetX509(new File(concatCert)));
@@ -33,13 +31,11 @@ public class testToolkit extends TestCase{
     }
     
     public void testValidity_start_Cert_Get() throws Exception {
-
         String filePath = new File("").getAbsolutePath();
         Assert.assertEquals(Sign.validityStartGet(Sign.certificateGetX509(new File(filePath.concat("\\src\\test\\Resources\\CSD_Pruebas_CFDI_LAN7008173R5.cer")))),("2016-10-25 16:52:11"));
     }
 
     public void testValidity_end_Cert_Get() throws Exception {
-
         String filePath = new File("").getAbsolutePath();
         Assert.assertEquals(Sign.validityEndGet(Sign.certificateGetX509(new File(filePath.concat("\\src\\test\\Resources\\CSD_Pruebas_CFDI_LAN7008173R5.cer")))),("2020-10-25 15:52:11"));
     }
