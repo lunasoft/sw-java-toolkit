@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cfdi:Comprobante xmlns:cfdi="http://www.sat.gob.mx/cfd/3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sat.gob.mx/cfd/3 http://www.sat.gob.mx/sitio_internet/cfd/3/cfdv33.xsd http://www.sat.gob.mx/sitio_internet/cfd/3/cfdv33.xsd http://www.sat.gob.mx/sitio_internet/cfd/3/cfdv33.xsd" Version="3.3" Serie="HDS" Folio="3" Sello="@" NoCertificado="20001000000300022815" Certificado="[B@5f9d02cb" LugarExpedicion="06300" TipoDeComprobante="I" FormaPago="01" MetodoPago="PUE" Moneda="MXN" SubTotal="200.0" Total="603.2">
+    <cfdi:Emisor RegimenFiscal="601" Nombre="CINDEMEX SA DE CV" Rfc="LAN7008173R5"/>
+    <cfdi:Receptor Nombre="SW SMARTERWEB" Rfc="AAA010101AAA" UsoCFDI="G03"/>
+    <cfdi:Conceptos>
+        <cfdi:Concepto Cantidad="1" ClaveProdServ="50211503" ClaveUnidad="H87" Descripcion="Cigarros" NoIdentificacion="UT421511" Unidad="Pieza" ValorUnitario="200.0" Importe="200.0">
+            <cfdi:Impuestos>
+                <cfdi:Traslados>
+                    <cfdi:Traslado TipoFactor="Tasa" TasaOCuota="0.160000" Base="200.00" Importe="32.0" Impuesto="002"/>
+                    <cfdi:Traslado TipoFactor="Tasa" Base="232.00" Importe="371.2" Impuesto="003" TasaOCuota="1.600000"/>
+                </cfdi:Traslados>
+            </cfdi:Impuestos>
+        </cfdi:Concepto>
+    </cfdi:Conceptos>
+    <cfdi:Impuestos TotalImpuestosTrasladados="403.2">
+        <cfdi:Traslados>
+            <cfdi:Traslado Importe="32.0" TasaOCuota="0.160000" Impuesto="002" TipoFactor="Tasa"/>
+            <cfdi:Traslado Importe="371.2" Impuesto="003" TasaOCuota="1.600000" TipoFactor="Tasa"/>
+        </cfdi:Traslados>
+    </cfdi:Impuestos>
+</cfdi:Comprobante>
