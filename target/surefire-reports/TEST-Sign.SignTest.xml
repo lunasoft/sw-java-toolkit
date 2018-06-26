@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite tests="7" failures="0" name="Sign.SignTest" time="0.24" errors="0" skipped="0">
+<testsuite tests="9" failures="0" name="Sign.SignTest" time="3.188" errors="0" skipped="0">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_161\jre\bin"/>
@@ -62,11 +62,13 @@
     <property name="sun.desktop" value="windows"/>
     <property name="sun.cpu.isalist" value="amd64"/>
   </properties>
-  <testcase classname="Sign.SignTest" name="validityEndGet" time="0.049"/>
-  <testcase classname="Sign.SignTest" name="rfcGet" time="0.014"/>
-  <testcase classname="Sign.SignTest" name="certificateBase64Get" time="0.01"/>
+  <testcase classname="Sign.SignTest" name="validityEndGet" time="0.11"/>
+  <testcase classname="Sign.SignTest" name="rfcGet" time="0.053"/>
+  <testcase classname="Sign.SignTest" name="certificateBase64Get" time="0.018"/>
+  <testcase classname="Sign.SignTest" name="testGetSign" time="1.777"/>
   <testcase classname="Sign.SignTest" name="noCertificateGet" time="0"/>
-  <testcase classname="Sign.SignTest" name="bussinesNameGet" time="0.001"/>
+  <testcase classname="Sign.SignTest" name="bussinesNameGet" time="0.003"/>
   <testcase classname="Sign.SignTest" name="validityStartGet" time="0.001"/>
-  <testcase classname="Sign.SignTest" name="keyBase64get" time="0.026"/>
+  <testcase classname="Sign.SignTest" name="keyBase64get" time="0"/>
+  <testcase classname="Sign.SignTest" name="signGet" time="1.003"/>
 </testsuite>

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite tests="7" failures="0" name="Test.Toolkit.testToolkit" time="0.207" errors="0" skipped="0">
+<testsuite tests="9" failures="0" name="Test.Toolkit.testToolkit" time="2.034" errors="0" skipped="0">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_161\jre\bin"/>
@@ -62,11 +62,13 @@
     <property name="sun.desktop" value="windows"/>
     <property name="sun.cpu.isalist" value="amd64"/>
   </properties>
-  <testcase classname="Test.Toolkit.testToolkit" name="testBase64_Key_Encode" time="0.034"/>
-  <testcase classname="Test.Toolkit.testToolkit" name="testBusiness_Name_Get" time="0.056"/>
-  <testcase classname="Test.Toolkit.testToolkit" name="testNoCertificate" time="0.001"/>
+  <testcase classname="Test.Toolkit.testToolkit" name="testBase64_Key_Encode" time="0.012"/>
+  <testcase classname="Test.Toolkit.testToolkit" name="testgetOriginalString" time="0.885"/>
+  <testcase classname="Test.Toolkit.testToolkit" name="testGetSign" time="0.998"/>
+  <testcase classname="Test.Toolkit.testToolkit" name="testBusiness_Name_Get" time="0.02"/>
+  <testcase classname="Test.Toolkit.testToolkit" name="testNoCertificate" time="0"/>
   <testcase classname="Test.Toolkit.testToolkit" name="testRfc_get" time="0.005"/>
-  <testcase classname="Test.Toolkit.testToolkit" name="testBase64_Cer_Encode" time="0.008"/>
-  <testcase classname="Test.Toolkit.testToolkit" name="testValidity_start_Cert_Get" time="0.008"/>
+  <testcase classname="Test.Toolkit.testToolkit" name="testBase64_Cer_Encode" time="0.001"/>
+  <testcase classname="Test.Toolkit.testToolkit" name="testValidity_start_Cert_Get" time="0.005"/>
   <testcase classname="Test.Toolkit.testToolkit" name="testValidity_end_Cert_Get" time="0.001"/>
 </testsuite>
