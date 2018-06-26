@@ -3,14 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="b6db451f-ab12-4549-8f09-d6eca9f1d0d0" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Sign/Sign.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Sign/Sign.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Sign/SignTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Sign/SignTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Test/Toolkit/testToolkit.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Test/Toolkit/testToolkit.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Sign/Sign.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Sign/Sign.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-Test.Toolkit.testToolkit.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-Test.Toolkit.testToolkit.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/Test.Toolkit.testToolkit.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/Test.Toolkit.testToolkit.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/Sign/SignTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Sign/SignTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/Test/Toolkit/testToolkit.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Test/Toolkit/testToolkit.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Sign/GeneralSecutrityException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/.netbeans_automatic_build" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/.netbeans_automatic_build" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -30,39 +25,34 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="testToolkit.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/Test/Toolkit/testToolkit.java">
+      <file leaf-file-name="Sign.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/Sign/Sign.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="23" column="8" lean-forward="true" selection-start-line="16" selection-start-column="3" selection-end-line="23" selection-end-column="8" />
+            <state relative-caret-position="102">
+              <caret line="31" column="5" selection-start-line="31" selection-start-column="5" selection-end-line="31" selection-end-column="5" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="SignTest.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="testToolkit.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/java/Test/Toolkit/testToolkit.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="272">
+              <caret line="27" column="38" selection-start-line="27" selection-start-column="38" selection-end-line="27" selection-end-column="38" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SignTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/Sign/SignTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="251">
-              <caret line="82" lean-forward="true" selection-start-line="82" selection-end-line="82" />
+            <state relative-caret-position="1275">
+              <caret line="86" column="10" selection-start-line="86" selection-start-column="10" selection-end-line="86" selection-end-column="10" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Sign.class" pinned="false" current-in-tab="false">
-        <entry file="jar://$PROJECT_DIR$/target/sw-java-toolkit-0.0.1-jar-with-dependencies.jar!/Sign/Sign.class">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="340">
-              <caret line="52" column="18" selection-start-line="52" selection-start-column="18" selection-end-line="52" selection-end-column="18" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="xml33.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/xml33.xml">
-          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
     </leaf>
@@ -97,8 +87,9 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="14" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="1922" />
+    <option name="y" value="13" />
     <option name="width" value="1936" />
     <option name="height" value="1056" />
   </component>
@@ -108,9 +99,9 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="AndroidView" />
-      <pane id="Scope" />
       <pane id="PackagesPane" />
+      <pane id="Scope" />
+      <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -122,6 +113,35 @@
               <item name="sw-java-toolkit" type="b2602c69:ProjectViewProjectNode" />
               <item name="sw-java-toolkit" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="sw-java-toolkit" type="b2602c69:ProjectViewProjectNode" />
+              <item name="sw-java-toolkit" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="sw-java-toolkit" type="b2602c69:ProjectViewProjectNode" />
+              <item name="sw-java-toolkit" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="sw-java-toolkit" type="b2602c69:ProjectViewProjectNode" />
+              <item name="sw-java-toolkit" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="Resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="sw-java-toolkit" type="b2602c69:ProjectViewProjectNode" />
+              <item name="sw-java-toolkit" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="Sign" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="sw-java-toolkit" type="b2602c69:ProjectViewProjectNode" />
@@ -425,12 +445,11 @@
     </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="14" y="0" width="1936" height="1056" extended-state="0" />
+    <frame x="1912" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Messages" order="7" weight="0.32897604" />
       <window_info anchor="right" id="Palette&#9;" order="3" />
       <window_info id="Image Layers" order="2" />
       <window_info anchor="right" id="Capture Analysis" order="3" />
@@ -441,13 +460,13 @@
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.32897604" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="2" />
       <window_info anchor="right" id="Theme Preview" order="3" />
       <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.39978212" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39978212" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Coverage" order="4" side_tool="true" visible="true" weight="0.20364584" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -455,6 +474,7 @@
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Messages" order="7" weight="0.32897604" />
     </layout>
   </component>
   <component name="VcsContentAnnotationSettings">
@@ -466,6 +486,20 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/main/java/Sign/Sign.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-729">
+          <caret line="20" column="39" selection-start-line="20" selection-start-column="39" selection-end-line="20" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/Test/Toolkit/testToolkit.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="18" column="4" selection-start-line="18" selection-start-column="4" selection-end-line="18" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/Test/Toolkit/testToolkit.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="935">
@@ -696,8 +730,8 @@
     <entry file="file://$PROJECT_DIR$/src/test/java/swjavatoolkit.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/Sign/Sign.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
+        <state relative-caret-position="102">
+          <caret line="31" column="5" selection-start-line="31" selection-start-column="5" selection-end-line="31" selection-end-column="5" />
         </state>
       </provider>
     </entry>
@@ -706,8 +740,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/Test/Toolkit/testToolkit.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="23" column="8" lean-forward="true" selection-start-line="16" selection-start-column="3" selection-end-line="23" selection-end-column="8" />
+        <state relative-caret-position="272">
+          <caret line="27" column="38" selection-start-line="27" selection-start-column="38" selection-end-line="27" selection-end-column="38" />
         </state>
       </provider>
     </entry>
@@ -720,8 +754,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/Sign/SignTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="251">
-          <caret line="82" lean-forward="true" selection-start-line="82" selection-end-line="82" />
+        <state relative-caret-position="1275">
+          <caret line="86" column="10" selection-start-line="86" selection-start-column="10" selection-end-line="86" selection-end-column="10" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
