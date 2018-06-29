@@ -9,5 +9,7 @@
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="library" name="target" level="project" />
     <orderEntry type="module" module-name="main" />
+    <orderEntry type="library" scope="TEST" name="Maven: com.fasterxml.jackson.dataformat:jackson-dataformat-xml:2.9.4" level="project" />
+    <orderEntry type="library" scope="TEST" name="Maven: org.apache.xmlbeans:xmlbeans:2.3.0" level="project" />
   </component>
 </module>

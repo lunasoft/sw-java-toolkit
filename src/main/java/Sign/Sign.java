@@ -1,14 +1,11 @@
 package Sign;
 
 import org.apache.commons.ssl.PKCS8Key;
-import javax.xml.bind.DatatypeConverter;
 import javax.xml.transform.*;
 import javax.xml.transform.stream.StreamResult;
 import javax.xml.transform.stream.StreamSource;
 import java.io.*;
 import java.math.BigInteger;
-import java.nio.file.Files;
-import java.nio.file.Paths;
 import java.security.GeneralSecurityException;
 import java.security.Signature;
 import java.security.cert.CertificateEncodingException;
@@ -18,18 +15,30 @@ import java.security.cert.X509Certificate;
 import java.text.ParseException;
 import java.text.SimpleDateFormat;
 import com.sun.org.apache.xerces.internal.impl.dv.util.Base64;
-import java.nio.charset.StandardCharsets;
-import java.security.KeyFactory;
-import java.security.PrivateKey;
-import java.security.spec.PKCS8EncodedKeySpec;
-import javax.xml.bind.DatatypeConverter;
-
-import static javax.xml.bind.DatatypeConverter.parseBase64Binary;
 import static javax.xml.bind.DatatypeConverter.printBase64Binary;
 
 public class Sign {
-      
-     
+           
+    public String sello;
+    public String certificadoBase64;
+    public String keyBase64;
+    public String noCertificado;
+    public String certificadoFechaInicio;
+    public String certificadoFechaVigencia;
+    public String certificadoRazonSocial;
+    public String certificadoRFC;
+    
+    private String javaVersion;    
+    
+    public static String JAVA_VERSION = getVersion();
+    
+    static String getVersion() {
+        String version = System.getProperty("java.version");
+        int pos = version.indexOf('.');
+        pos = version.indexOf('.', pos+1);
+        return  Double.toString(Double.parseDouble(version.substring (0, pos)));
+    }
+    
     public static String signGet(String cadenaOriginal, String KeyBase64, String passwordLlave) throws GeneralSecurityException, IOException {
         PKCS8Key pkcs8 = new PKCS8Key(java.util.Base64.getDecoder().decode(KeyBase64), passwordLlave.toCharArray());
         java.security.PrivateKey pk = pkcs8.getPrivateKey();
@@ -75,8 +84,7 @@ public class Sign {
             fileBytes = new byte[fileInputStream.available()];
             fileInputStream.read(fileBytes);
         }
-        String fileString = new String(java.util.Base64.getEncoder().encode(fileBytes));
-        return fileString;
+        return new String(java.util.Base64.getEncoder().encode(fileBytes));
     }
 
     public static X509Certificate attributesCertificateGet(final X509Certificate cert){

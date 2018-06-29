@@ -2,15 +2,37 @@ package Test.Toolkit;
 import Sign.Sign;
 import junit.framework.TestCase;
 import org.junit.Assert;
-
 import java.io.File;
-import java.io.FileReader;
+import java.io.FileNotFoundException;
 import java.io.IOException;
+import java.io.PrintWriter;
+import java.math.BigDecimal;
 import java.nio.file.Files;
 import java.nio.file.Paths;
 import java.security.GeneralSecurityException;
 import java.security.cert.CertificateException;
-import sun.misc.IOUtils;
+import java.text.ParseException;
+import java.text.SimpleDateFormat;
+import java.util.Calendar;
+import java.util.Date;
+import java.util.HashSet;
+import java.util.Locale;
+import java.util.Set;
+import javax.xml.namespace.QName;
+import mx.gob.sat.cfd.x3.ComprobanteDocument;
+import mx.gob.sat.cfd.x3.ComprobanteDocument.Comprobante;
+import mx.gob.sat.cfd.x3.ComprobanteDocument.Comprobante.Conceptos;
+import mx.gob.sat.cfd.x3.ComprobanteDocument.Comprobante.Conceptos.Concepto;
+import mx.gob.sat.cfd.x3.ComprobanteDocument.Comprobante.Conceptos.Concepto.Impuestos;
+import mx.gob.sat.cfd.x3.ComprobanteDocument.Comprobante.Conceptos.Concepto.Impuestos.Traslados;
+import mx.gob.sat.cfd.x3.ComprobanteDocument.Comprobante.Conceptos.Concepto.Impuestos.Traslados.Traslado;
+import mx.gob.sat.cfd.x3.ComprobanteDocument.Comprobante.Emisor;
+import mx.gob.sat.cfd.x3.ComprobanteDocument.Comprobante.Receptor;
+import mx.gob.sat.sitioInternet.cfd.catalogos.CFormaPago;
+import mx.gob.sat.sitioInternet.cfd.catalogos.CImpuesto;
+import mx.gob.sat.sitioInternet.cfd.catalogos.CTipoDeComprobante;
+import mx.gob.sat.sitioInternet.cfd.catalogos.CTipoFactor;
+import org.apache.xmlbeans.XmlCursor;
 
 public class testToolkit extends TestCase{
 
@@ -21,6 +43,13 @@ public class testToolkit extends TestCase{
     public String rfc = "LAN7008173R5";
     public String cadenaOriginal = "||3.3|HDS|3||01|20001000000300022815|200.0|MXN|603.2|I|PUE|06300|LAN7008173R5|CINDEMEX SA DE CV|601|AAA010101AAA|SW SMARTERWEB|G03|50211503|UT421511|1|H87|Pieza|Cigarros|200.0|200.0|200.00|002|Tasa|0.160000|32.0|232.00|003|Tasa|1.600000|371.2|002|Tasa|0.160000|32.0|003|Tasa|1.600000|371.2|403.2||";
     public String sello = "G3WyqkiFLPFRCNMUutKLGRCHbGOEwC1f4iEPRE3bgiOchXxT+C66IWUUKmLtKRuOOD0o2dHXVyMpplOqmIdRKAodpVvMqBSh5CTdS3c1wJprcnGatK4CkRHrKg7wKfF2bNYhFVAe+JfCvudpP740o6qv/K1UKiqy9JLXmVs+KXGMqUzvb3Y23FVj2KhgJhRoarCNBl8mKJyxMkFJ5o/rpPG7K+guQeaWpUIi0maljgs7pm5fosczk6vD4B2tb8i2sIziG89QYQdOdMPqzaxSXATPjRE/lgef+3syyC1SkDdqj9B2ypzo/M5xddknWDIeZC0/Odr03bkdOt8KwE1jpQ==";
+        
+    
+    public void testJavaVersion() throws Exception {
+        String jVersion = "1.8";
+        String javaVersionFunction = Sign.JAVA_VERSION;
+        Assert.assertEquals(jVersion, javaVersionFunction);
+    }
         
     public void testBase64_Key_Encode() throws Exception {
         String filePath = new File("").getAbsolutePath();
@@ -61,7 +90,7 @@ public class testToolkit extends TestCase{
     public void testRfc_get() throws CertificateException, CertificateException, IOException {
         String filePath = new File("").getAbsolutePath();
         String rfc = Sign.rfcGet(Sign.certificateGetX509(new File(filePath.concat("\\src\\test\\Resources\\CSD_Pruebas_CFDI_LAN7008173R5.cer"))));
-        Assert.assertEquals(rfc,"LAN7008173R5");
+        Assert.assertEquals("LAN7008173R5", rfc);
     }
     
     public void testgetOriginalString() throws IOException{
@@ -73,5 +102,90 @@ public class testToolkit extends TestCase{
     public void testGetSign() throws GeneralSecurityException, IOException{
         String Nuevo_Sello = Sign.signGet(cadenaOriginal, b64Key, password_csd);
         Assert.assertEquals(Nuevo_Sello,sello);
+    }
+    
+    
+    public void testCfdiBuilder() throws ParseException, FileNotFoundException{
+        
+        ComprobanteDocument document = ComprobanteDocument.Factory.newInstance();        Comprobante comprobante = document.addNewComprobante();
+        XmlCursor cursor = comprobante.newCursor();
+        QName location = new QName("http://www.w3.org/2001/XMLSchema-instance", "schemalocation");
+        cursor.setAttributeText(location, "http://www.sat.gob.mx/cfd/3 http://www.sat.gob.mx/sitio_internet/cfd/3/cfdv33.xsd");
+        
+        // Setear Fecha
+        SimpleDateFormat customDate = new SimpleDateFormat("yyyy-MM-dd'T'hh:mm:ss");
+        String fecha = "2018-06-21T11:58:15";
+        Calendar cal = Calendar.getInstance();
+        cal.setTime(customDate.parse(fecha));
+        
+        // Datos comprobante
+        comprobante.setVersion("3.3");
+        comprobante.setSerie("A");
+        comprobante.setFolio("1");
+        comprobante.setFecha(cal);
+        comprobante.setFormaPago(CFormaPago.X_01);
+        comprobante.setSubTotal(BigDecimal.valueOf(0));
+        comprobante.setTotal(BigDecimal.valueOf(0));
+        comprobante.setTipoDeComprobante(CTipoDeComprobante.I);
+        
+        // Datos Emisor
+        Emisor emisor = comprobante.addNewEmisor();
+        emisor.setNombre("");
+        emisor.setRfc("");
+        emisor.setRegimenFiscal("");
+        
+        
+        // Datos Receptor
+        Receptor receptor = comprobante.addNewReceptor();
+        receptor.setNombre(""); 
+        receptor.setRfc("");
+        receptor.setUsoCFDI("");
+
+        // Conceptos
+        Conceptos conceptos = comprobante.addNewConceptos();
+        
+        // Concepto
+        Concepto concepto = conceptos.addNewConcepto();
+        concepto.setCantidad(BigDecimal.ONE);
+        concepto.setClaveProdServ(uuid);
+        concepto.setClaveUnidad(uuid);
+        concepto.setDescripcion(uuid);
+        concepto.setImporte(BigDecimal.ONE);
+        concepto.setValorUnitario(BigDecimal.ONE);
+        
+        // Concepto Impuestos
+        Impuestos impuestos = concepto.addNewImpuestos();
+        
+        // Traslados
+        Traslados traslados = impuestos.addNewTraslados();
+        
+        // Traslado
+        Traslado traslado = traslados.addNewTraslado();
+        traslado.setBase(BigDecimal.ONE);
+        traslado.setImporte(BigDecimal.ONE);
+        traslado.setImpuesto(CImpuesto.X_002);
+        traslado.setTasaOCuota(BigDecimal.ONE);
+        traslado.setTipoFactor(CTipoFactor.TASA);
+        
+        // Impuestos
+        Impuestos impuestosTotal = (Impuestos) comprobante.addNewImpuestos();
+        impuestosTotal.setTraslados(traslados);
+        Traslados totalImpuestosTraslados = impuestosTotal.addNewTraslados();
+        Traslado totalImpuestoTraslado = totalImpuestosTraslados.addNewTraslado();
+        totalImpuestoTraslado.setImpuesto(CImpuesto.X_002);
+        totalImpuestoTraslado.setTipoFactor(CTipoFactor.TASA);
+        totalImpuestoTraslado.setTasaOCuota(BigDecimal.ONE);
+        totalImpuestoTraslado.setImporte(BigDecimal.ONE);
+        
+        
+        //String xml = CFDIUtils.getXML(document);
+        PrintWriter out = new PrintWriter("cfdi33.xml");
+        System.out.println(comprobante.toString());
+        
+        //comprobante.save("Cfdi33.xml");
+        
+       
+        
+        
     }
 }
