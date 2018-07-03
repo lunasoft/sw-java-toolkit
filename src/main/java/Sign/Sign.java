@@ -1,6 +1,8 @@
 package Sign;
 
+import com.sun.org.apache.xerces.internal.impl.dv.util.Base64;
 import org.apache.commons.ssl.PKCS8Key;
+
 import javax.xml.transform.*;
 import javax.xml.transform.stream.StreamResult;
 import javax.xml.transform.stream.StreamSource;
@@ -14,7 +16,7 @@ import java.security.cert.CertificateFactory;
 import java.security.cert.X509Certificate;
 import java.text.ParseException;
 import java.text.SimpleDateFormat;
-import com.sun.org.apache.xerces.internal.impl.dv.util.Base64;
+
 import static javax.xml.bind.DatatypeConverter.printBase64Binary;
 
 public class Sign {
@@ -28,8 +30,7 @@ public class Sign {
     public String certificadoRazonSocial;
     public String certificadoRFC;
     
-    private String javaVersion;    
-    
+
     public static String JAVA_VERSION = getVersion();
     
     static String getVersion() {
@@ -38,6 +39,9 @@ public class Sign {
         pos = version.indexOf('.', pos+1);
         return  Double.toString(Double.parseDouble(version.substring (0, pos)));
     }
+
+
+
     
     public static String signGet(String cadenaOriginal, String KeyBase64, String passwordLlave) throws GeneralSecurityException, IOException {
         PKCS8Key pkcs8 = new PKCS8Key(java.util.Base64.getDecoder().decode(KeyBase64), passwordLlave.toCharArray());
