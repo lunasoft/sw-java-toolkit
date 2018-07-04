@@ -34,9 +34,7 @@ public class Sign {
     
     static String getVersion() {
         String version = System.getProperty("java.version");
-        int pos = version.indexOf('.');
-        pos = version.indexOf('.', pos+1);
-        return  Double.toString(Double.parseDouble(version.substring (0, pos)));
+        return version.substring (0,version.indexOf( '.', version.indexOf('.')+1));
     }
 
     public static String signGet(String cadenaOriginal, String KeyBase64, String passwordLlave) throws GeneralSecurityException, IOException {
