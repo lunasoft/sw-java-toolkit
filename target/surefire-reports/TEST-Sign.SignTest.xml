@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite tests="10" failures="0" name="Sign.SignTest" time="2.139" errors="0" skipped="0">
+<testsuite tests="10" failures="0" name="Sign.SignTest" time="2.408" errors="0" skipped="0">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_161\jre\bin"/>
@@ -62,14 +62,14 @@
     <property name="sun.desktop" value="windows"/>
     <property name="sun.cpu.isalist" value="amd64"/>
   </properties>
-  <testcase classname="Sign.SignTest" name="testBase64_Key_Encode" time="0.01"/>
-  <testcase classname="Sign.SignTest" name="testCfdiBuilder" time="1.979"/>
-  <testcase classname="Sign.SignTest" name="testGetSign" time="0.018"/>
-  <testcase classname="Sign.SignTest" name="testBusiness_Name_Get" time="0"/>
+  <testcase classname="Sign.SignTest" name="testBase64_Key_Encode" time="0.009"/>
+  <testcase classname="Sign.SignTest" name="testCfdiBuilder" time="2.094"/>
+  <testcase classname="Sign.SignTest" name="testGetSign" time="0.03"/>
+  <testcase classname="Sign.SignTest" name="testBusiness_Name_Get" time="0.003"/>
   <testcase classname="Sign.SignTest" name="testNoCertificate" time="0"/>
-  <testcase classname="Sign.SignTest" name="testRfc_get" time="0"/>
-  <testcase classname="Sign.SignTest" name="testBase64_Cer_Encode" time="0.01"/>
+  <testcase classname="Sign.SignTest" name="testRfc_get" time="0.004"/>
+  <testcase classname="Sign.SignTest" name="testBase64_Cer_Encode" time="0.001"/>
   <testcase classname="Sign.SignTest" name="testJavaVersion" time="0"/>
-  <testcase classname="Sign.SignTest" name="testValidity_start_Cert_Get" time="0"/>
-  <testcase classname="Sign.SignTest" name="testValidity_end_Cert_Get" time="0"/>
+  <testcase classname="Sign.SignTest" name="testValidity_start_Cert_Get" time="0.001"/>
+  <testcase classname="Sign.SignTest" name="testValidity_end_Cert_Get" time="0.003"/>
 </testsuite>

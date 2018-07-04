@@ -270,9 +270,7 @@ public class SignTest {
             StreamResult result = new StreamResult(new File("C:\\Out\\xml33.xml"));
             transformer.transform(source, result);
 
-
             // Leemos el XML final
-
             BufferedReader br = new BufferedReader(new FileReader("C:\\Out\\xml33.xml"));
             String contentXML = br.lines().collect(Collectors.joining("\n"));
             Assert.assertEquals(removeWhiteSpaces(contentXML), removeWhiteSpaces(xmlTest));

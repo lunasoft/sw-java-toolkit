@@ -29,7 +29,6 @@ public class Sign {
     public String certificadoFechaVigencia;
     public String certificadoRazonSocial;
     public String certificadoRFC;
-    
 
     public static String JAVA_VERSION = getVersion();
     
@@ -40,9 +39,6 @@ public class Sign {
         return  Double.toString(Double.parseDouble(version.substring (0, pos)));
     }
 
-
-
-    
     public static String signGet(String cadenaOriginal, String KeyBase64, String passwordLlave) throws GeneralSecurityException, IOException {
         PKCS8Key pkcs8 = new PKCS8Key(java.util.Base64.getDecoder().decode(KeyBase64), passwordLlave.toCharArray());
         java.security.PrivateKey pk = pkcs8.getPrivateKey();
