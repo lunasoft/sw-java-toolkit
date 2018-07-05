@@ -25,7 +25,7 @@ public class Sign {
     public String certificadoFechaVigencia;
     public String certificadoRazonSocial;
     public String certificadoRFC;
-
+    
     public static String JAVA_VERSION = getVersion();
     
     static String getVersion() {

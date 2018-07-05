@@ -8,12 +8,14 @@ import org.junit.Assert;
 import org.junit.Test;
 import org.w3c.dom.Document;
 import org.w3c.dom.Element;
+import org.xml.sax.InputSource;
 import org.xml.sax.SAXException;
 
 import javax.xml.namespace.QName;
 import javax.xml.parsers.DocumentBuilder;
 import javax.xml.parsers.DocumentBuilderFactory;
 import javax.xml.parsers.ParserConfigurationException;
+import javax.xml.transform.OutputKeys;
 import javax.xml.transform.Transformer;
 import javax.xml.transform.TransformerException;
 import javax.xml.transform.TransformerFactory;
@@ -28,7 +30,6 @@ import java.security.cert.CertificateException;
 import java.security.cert.X509Certificate;
 import java.text.SimpleDateFormat;
 import java.util.HashMap;
-import java.util.stream.Collectors;
 
 public class SignTest {
 
@@ -132,7 +133,7 @@ public class SignTest {
     }
 
     @Test
-    public void testCfdiBuilder() throws IOException, GeneralSecurityException, TransformerException {
+    public void testCfdiBuilder() throws IOException, GeneralSecurityException, TransformerException, ParserConfigurationException, SAXException {
 
         // Convertimos nuestro archivo *.cer a un arreglo de bytes (byte[])
         String filePath = new File("").getAbsolutePath().concat("\\src\\test\\Resources\\CSD_Pruebas_CFDI_LAN7008173R5.cer");
@@ -257,19 +258,8 @@ public class SignTest {
         xmlOptions.setCharacterEncoding("UTF-8");
         xmlOptions.setSaveOuter();
 
-        // Guardamos el XML en directorio fisico
-        File xmlFile = new File("C:\\Out\\xml33.xml");
-        comprobante.save(xmlFile, xmlOptions);
-
-        // Mostramos el contenido del archivo fisico
-        String xml = null;
-        try {
-            byte[] encodedXML = Files.readAllBytes(Paths.get("C:\\Out\\xml33.xml"));
-            xml = new String(encodedXML, "UTF-8");
-
-        } catch (IOException e) {
-            System.out.println("Sucedio un error");
-        }
+        // Agregamos las opciones a nuestro XML y lo representamos por un string
+        String cfdiXml = comprobante.xmlText(xmlOptions);
 
         String fileKeyPath = new File("").getAbsolutePath().concat("\\src\\test\\Resources\\CSD_Pruebas_CFDI_LAN7008173R5.key");
         byte[] fileKeyBytes;
@@ -278,37 +268,31 @@ public class SignTest {
             fileInputStream.read(fileKeyBytes);
         }
 
-        String content = new String(Files.readAllBytes(Paths.get("C:\\Out\\xml33.xml")));
-        String Cadena_Original = Sign.originalStringGet(content);
+        String Cadena_Original = Sign.originalStringGet(cfdiXml);
         String Nuevo_Sello = Sign.signGet(Cadena_Original, fileKeyBytes, password_csd);
 
-        comprobante.setSello("@");
-
-        String xmlFinal = null;
         try {
-            DocumentBuilderFactory factory = DocumentBuilderFactory.newInstance();
-            DocumentBuilder builder = factory.newDocumentBuilder();
-            Document doc = builder.parse(new File("C:\\Out\\xml33.xml"));
+            DocumentBuilder builder = DocumentBuilderFactory.newInstance().newDocumentBuilder();
+            InputSource is = new InputSource();
+            is.setCharacterStream(new StringReader(cfdiXml));
+            Document doc = builder.parse(is);
 
             Element root = doc.getDocumentElement();
-            // System.out.println("El Valor actual del Sello: " + root.getAttribute("Sello") + "\n");
             root.setAttribute("Sello", Nuevo_Sello);
+            StringWriter sw = new StringWriter();
+            TransformerFactory tf = TransformerFactory.newInstance();
+            Transformer transformer = tf.newTransformer();
+            transformer.setOutputProperty(OutputKeys.OMIT_XML_DECLARATION, "no");
+            transformer.setOutputProperty(OutputKeys.METHOD, "xml");
+            transformer.setOutputProperty(OutputKeys.INDENT, "yes");
+            transformer.setOutputProperty(OutputKeys.ENCODING, "UTF-8");
 
-            // escribimos el contenido del XML dentro de nuestro archivo
-            TransformerFactory transformerFactory = TransformerFactory.newInstance();
-            Transformer transformer = transformerFactory.newTransformer();
-            DOMSource source = new DOMSource(doc);
-            StreamResult result = new StreamResult(new File("C:\\Out\\xml33.xml"));
-            transformer.transform(source, result);
-
+            transformer.transform(new DOMSource(doc), new StreamResult(sw));
 
             // Leemos el XML final
+            Assert.assertEquals(removeWhiteSpaces(sw.toString()), removeWhiteSpaces(xmlTest));
 
-            BufferedReader br = new BufferedReader(new FileReader("C:\\Out\\xml33.xml"));
-            String contentXML = br.lines().collect(Collectors.joining("\n"));
-            Assert.assertEquals(removeWhiteSpaces(contentXML), removeWhiteSpaces(xmlTest));
-
-        } catch (TransformerException | SAXException | ParserConfigurationException | IOException e) {
+        } catch ( SAXException | ParserConfigurationException | IOException e) {
             e.printStackTrace();
         }
 
