@@ -12,7 +12,6 @@ import org.w3c.dom.Document;
 import org.w3c.dom.Element;
 import org.xml.sax.SAXException;
 
-import javax.xml.datatype.DatatypeConfigurationException;
 import javax.xml.namespace.QName;
 import javax.xml.parsers.DocumentBuilder;
 import javax.xml.parsers.DocumentBuilderFactory;
@@ -28,7 +27,7 @@ import java.nio.file.Files;
 import java.nio.file.Paths;
 import java.security.GeneralSecurityException;
 import java.security.cert.CertificateException;
-import java.text.ParseException;
+import java.security.cert.X509Certificate;
 import java.text.SimpleDateFormat;
 import java.util.HashMap;
 import java.util.stream.Collectors;
@@ -51,62 +50,72 @@ public class testToolkit extends XSTCTester.TestCase {
     }
 
     @Test
-    public void testJavaVersion() throws Exception {
+    public void testJavaVersion() {
         String jVersion = "1.8";
         String javaVersionFunction = Sign.JAVA_VERSION;
         Assert.assertEquals(jVersion, javaVersionFunction);
     }
 
     @Test
-    public void testBase64_Key_Encode() throws Exception {
-        String filePath = new File("").getAbsolutePath();
-        String concatKey = filePath.concat("\\src\\test\\Resources\\CSD_Pruebas_CFDI_LAN7008173R5.key");
-        String Key = Sign.keyBase64get(concatKey);
-        Assert.assertEquals(Key, b64Key);
-    }
-
-    @Test
-    public void testBase64_Cer_Encode() throws Exception {
-        String filePath = new File("").getAbsolutePath();
-        String concatCert = filePath.concat("\\src\\test\\Resources\\CSD_Pruebas_CFDI_LAN7008173R5.cer");
-        String Cert = Sign.certificateBase64Get(Sign.certificateGetX509(new File(concatCert)));
-        Assert.assertEquals(Cert,b64Cer);
-    }
-
-    @Test
     public void testValidity_start_Cert_Get() throws Exception {
-        String filePath = new File("").getAbsolutePath();
-        Assert.assertEquals(Sign.validityStartGet(Sign.certificateGetX509(new File(filePath.concat("\\src\\test\\Resources\\CSD_Pruebas_CFDI_LAN7008173R5.cer")))),("2016-10-25 16:52:11"));
+
+        String filePath = new File("").getAbsolutePath().concat("\\src\\test\\Resources\\CSD_Pruebas_CFDI_LAN7008173R5.cer");
+        byte[] fileBytes;
+        try (FileInputStream fileInputStream = new FileInputStream(filePath)) {
+            fileBytes = new byte[fileInputStream.available()];
+            fileInputStream.read(fileBytes);
+        }
+        Assert.assertEquals(Sign.validityStartGet(Sign.certificateGetX509(fileBytes)),"2016-10-25 16:52:11");
     }
 
     @Test
     public void testValidity_end_Cert_Get() throws Exception {
-        String filePath = new File("").getAbsolutePath();
-        Assert.assertEquals(Sign.validityEndGet(Sign.certificateGetX509(new File(filePath.concat("\\src\\test\\Resources\\CSD_Pruebas_CFDI_LAN7008173R5.cer")))),("2020-10-25 15:52:11"));
+        String filePath = new File("").getAbsolutePath().concat("\\src\\test\\Resources\\CSD_Pruebas_CFDI_LAN7008173R5.cer");
+        byte[] fileBytes;
+        try (FileInputStream fileInputStream = new FileInputStream(filePath)) {
+            fileBytes = new byte[fileInputStream.available()];
+            fileInputStream.read(fileBytes);
+        }
+        Assert.assertEquals(Sign.validityEndGet(Sign.certificateGetX509(fileBytes)),("2020-10-25 15:52:11"));
     }
 
     @Test
     public void testBusiness_Name_Get() throws CertificateException, IOException {
-        String filePath = new File("").getAbsolutePath();
-        String businessName = Sign.bussinesNameGet(Sign.certificateGetX509(new File(filePath.concat("\\src\\test\\Resources\\CSD_Pruebas_CFDI_LAN7008173R5.cer"))));
+        String filePath = new File("").getAbsolutePath().concat("\\src\\test\\Resources\\CSD_Pruebas_CFDI_LAN7008173R5.cer");
+        byte[] fileBytes;
+        try (FileInputStream fileInputStream = new FileInputStream(filePath)) {
+            fileBytes = new byte[fileInputStream.available()];
+            fileInputStream.read(fileBytes);
+        }
+        String businessName = Sign.bussinesNameGet(Sign.certificateGetX509(fileBytes));
         Assert.assertEquals(businessName,razonSocial);
     }
 
     @Test
     public void testNoCertificate() throws CertificateException, IOException {
-        String filePath = new File("").getAbsolutePath();
-        String certificateNumber = Sign.noCertificateGet(Sign.certificateGetX509(new File(filePath.concat("\\src\\test\\Resources\\CSD_Pruebas_CFDI_LAN7008173R5.cer"))));
+        String filePath = new File("").getAbsolutePath().concat("\\src\\test\\Resources\\CSD_Pruebas_CFDI_LAN7008173R5.cer");
+        byte[] fileBytes;
+        try (FileInputStream fileInputStream = new FileInputStream(filePath)) {
+            fileBytes = new byte[fileInputStream.available()];
+            fileInputStream.read(fileBytes);
+        }
+        String certificateNumber = Sign.noCertificateGet(Sign.certificateGetX509(fileBytes));
         Assert.assertEquals(certificateNumber,noCertificado);
     }
 
     @Test
-    public void testRfc_get() throws CertificateException, CertificateException, IOException {
-        String filePath = new File("").getAbsolutePath();
-        String RfcGet = Sign.rfcGet(Sign.certificateGetX509(new File(filePath.concat("\\src\\test\\Resources\\CSD_Pruebas_CFDI_LAN7008173R5.cer"))));
+    public void testRfc_get() throws CertificateException, IOException {
+        String filePath = new File("").getAbsolutePath().concat("\\src\\test\\Resources\\CSD_Pruebas_CFDI_LAN7008173R5.cer");
+        byte[] fileBytes;
+        try (FileInputStream fileInputStream = new FileInputStream(filePath)) {
+            fileBytes = new byte[fileInputStream.available()];
+            fileInputStream.read(fileBytes);
+        }
+        String RfcGet = Sign.rfcGet(Sign.certificateGetX509(fileBytes));
         Assert.assertEquals(RfcGet, rfc);
     }
 
-    public void testgetOriginalString() throws IOException{
+    public void testgetOriginalString() throws IOException, TransformerException {
         String content = new String(Files.readAllBytes(Paths.get("xml33.xml")));
         String Cadena_Original = Sign.originalStringGet(content);
         Assert.assertEquals(Cadena_Original,cadenaOriginal);
@@ -114,26 +123,42 @@ public class testToolkit extends XSTCTester.TestCase {
 
     @Test
     public void testGetSign() throws GeneralSecurityException, IOException{
-        String Nuevo_Sello = Sign.signGet(cadenaOriginal, b64Key, password_csd);
+
+        String filePath = new File("").getAbsolutePath().concat("\\src\\test\\Resources\\CSD_Pruebas_CFDI_LAN7008173R5.key");
+        byte[] fileBytes;
+        try (FileInputStream fileInputStream = new FileInputStream(filePath)) {
+            fileBytes = new byte[fileInputStream.available()];
+            fileInputStream.read(fileBytes);
+        }
+        String Nuevo_Sello = Sign.signGet(cadenaOriginal, fileBytes, password_csd);
         Assert.assertEquals(Nuevo_Sello,sello);
     }
 
     @Test
-    public void testCfdiBuilder() throws ParseException, FileNotFoundException, IOException, DatatypeConfigurationException, GeneralSecurityException {
+    public void testCfdiBuilder() throws IOException, GeneralSecurityException, TransformerException {
+
+        // Convertimos nuestro archivo *.cer a un arreglo de bytes (byte[])
+        String filePath = new File("").getAbsolutePath().concat("\\src\\test\\Resources\\CSD_Pruebas_CFDI_LAN7008173R5.cer");
+        byte[] fileBytes;
+        try (FileInputStream fileInputStream = new FileInputStream(filePath)) {
+            fileBytes = new byte[fileInputStream.available()];
+            fileInputStream.read(fileBytes);
+        }
+
+        // x509
+        X509Certificate x509Certificate = Sign.certificateGetX509(fileBytes);
 
         // Obtenemos el número del certificado
-        String filePath = new File("").getAbsolutePath();
-        String certificateNumber = Sign.noCertificateGet(Sign.certificateGetX509(new File(filePath.concat("\\src\\test\\Resources\\CSD_Pruebas_CFDI_LAN7008173R5.cer"))));
+        String certificateNumber = Sign.noCertificateGet(x509Certificate);
 
         // Obtenemos el certificado encodeado en base64
-        String concatCert = filePath.concat("\\src\\test\\Resources\\CSD_Pruebas_CFDI_LAN7008173R5.cer");
-        String Cert = Sign.certificateBase64Get(Sign.certificateGetX509(new File(concatCert)));
+        String Cert = javax.xml.bind.DatatypeConverter.printBase64Binary(fileBytes);
 
         // Obtenemos el RFC
-        String RfcGet = Sign.rfcGet(Sign.certificateGetX509(new File(filePath.concat("\\src\\test\\Resources\\CSD_Pruebas_CFDI_LAN7008173R5.cer"))));
+        String RfcGet = Sign.rfcGet(Sign.certificateGetX509(fileBytes));
 
         // Obtenemos el nombre de la razón social
-        String businessName = Sign.bussinesNameGet(Sign.certificateGetX509(new File(filePath.concat("\\src\\test\\Resources\\CSD_Pruebas_CFDI_LAN7008173R5.cer"))));
+        String businessName = Sign.bussinesNameGet(Sign.certificateGetX509(fileBytes));
 
         ComprobanteDocument comprobanteDocument = ComprobanteDocument.Factory.newInstance();
         ComprobanteDocument.Comprobante comprobante = comprobanteDocument.addNewComprobante();
@@ -234,7 +259,6 @@ public class testToolkit extends XSTCTester.TestCase {
         xmlOptions.setSavePrettyPrint();
         xmlOptions.setCharacterEncoding("UTF-8");
         xmlOptions.setSaveOuter();
-        //xmlOptions.setSavePrettyPrintIndent(2);
 
         // Guardamos el XML en directorio fisico
         File xmlFile = new File("C:\\Out\\xml33.xml");
@@ -250,9 +274,16 @@ public class testToolkit extends XSTCTester.TestCase {
             System.out.println("Sucedio un error");
         }
 
+        String fileKeyPath = new File("").getAbsolutePath().concat("\\src\\test\\Resources\\CSD_Pruebas_CFDI_LAN7008173R5.key");
+        byte[] fileKeyBytes;
+        try (FileInputStream fileInputStream = new FileInputStream(fileKeyPath)) {
+            fileKeyBytes = new byte[fileInputStream.available()];
+            fileInputStream.read(fileKeyBytes);
+        }
+
         String content = new String(Files.readAllBytes(Paths.get("C:\\Out\\xml33.xml")));
         String Cadena_Original = Sign.originalStringGet(content);
-        String Nuevo_Sello = Sign.signGet(Cadena_Original, b64Key, password_csd);
+        String Nuevo_Sello = Sign.signGet(Cadena_Original, fileKeyBytes, password_csd);
 
         comprobante.setSello("@");
 
