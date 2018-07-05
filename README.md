@@ -6,7 +6,8 @@ Toolkit para manipulación de certificados y creación de comprobante CFDI 3.3
 Compatibilidad
 -------------
 * CFDI 3.3
-* Java 1.8
+* Java 1.8  
+
 Dependencias
 ------------
 
