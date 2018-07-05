@@ -1,11 +1,43 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutomaticModuleUnloader">
+    <loaded-modules>
+      <module name="sw-java-toolkit" />
+    </loaded-modules>
+  </component>
+  <component name="BookmarkManager">
+    <bookmark url="file://$PROJECT_DIR$/src/test/java/Test/Toolkit/testToolkit.java" line="170" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="b6db451f-ab12-4549-8f09-d6eca9f1d0d0" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Sign/GeneralSecutrityException.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/.netbeans_automatic_build" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/.netbeans_automatic_build" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Sign/Sign.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Sign/Sign.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Sign/SignTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Sign/SignTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Test/Toolkit/testToolkit.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Test/Toolkit/testToolkit.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sw-java-toolkit.iml" beforeDir="false" afterPath="$PROJECT_DIR$/sw-java-toolkit.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/apidocs/Sign/Sign.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/apidocs/Sign/Sign.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/apidocs/Sign/class-use/Sign.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/apidocs/Sign/class-use/Sign.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/apidocs/Sign/package-frame.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/apidocs/Sign/package-frame.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/apidocs/Sign/package-summary.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/apidocs/Sign/package-summary.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/apidocs/Sign/package-tree.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/apidocs/Sign/package-tree.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/apidocs/Sign/package-use.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/apidocs/Sign/package-use.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/apidocs/allclasses-frame.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/apidocs/allclasses-frame.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/apidocs/allclasses-noframe.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/apidocs/allclasses-noframe.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/apidocs/constant-values.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/apidocs/constant-values.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/apidocs/deprecated-list.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/apidocs/deprecated-list.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/apidocs/help-doc.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/apidocs/help-doc.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/apidocs/index-all.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/apidocs/index-all.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/apidocs/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/apidocs/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/apidocs/overview-tree.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/apidocs/overview-tree.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-archiver/pom.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/Sign.SignTest.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/Sign.SignTest.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-Sign.SignTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-Sign.SignTest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/sw-java-toolkit-0.0.1-jar-with-dependencies.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/sw-java-toolkit-0.0.1-jar-with-dependencies.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/sw-java-toolkit-0.0.1-javadoc.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/sw-java-toolkit-0.0.1-javadoc.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/sw-java-toolkit-0.0.1-sources.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/sw-java-toolkit-0.0.1-sources.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/sw-java-toolkit-0.0.1.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/sw-java-toolkit-0.0.1.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/Sign/SignTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Sign/SignTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/Test/Toolkit/testToolkit.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Test/Toolkit/testToolkit.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -15,6 +47,9 @@
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeInsightWorkspaceSettings">
+    <option name="optimizeImportsOnTheFly" value="true" />
   </component>
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/sw_java_toolkit$SW_Toolkit_Java_UT_Test_Business_Name_Get.ic" NAME="SW_Toolkit_Java_UT.Test_Business_Name_Get Coverage Results" MODIFIED="1528995281404" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
@@ -28,17 +63,41 @@
       <file leaf-file-name="Sign.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/Sign/Sign.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="31" column="5" selection-start-line="31" selection-start-column="5" selection-end-line="31" selection-end-column="5" />
+            <state relative-caret-position="189">
+              <caret line="48" column="59" selection-start-line="48" selection-start-column="59" selection-end-line="48" selection-end-column="59" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="testToolkit.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="testToolkit.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/Test/Toolkit/testToolkit.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="27" column="38" selection-start-line="27" selection-start-column="38" selection-end-line="27" selection-end-column="38" />
+            <state relative-caret-position="71">
+              <caret line="55" selection-start-line="55" selection-end-line="55" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="187">
+              <caret line="50" column="25" lean-forward="true" selection-start-line="50" selection-start-column="25" selection-end-line="50" selection-end-column="25" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="main.iml" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/main.iml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="17">
+              <caret line="1" column="25" selection-start-line="1" selection-start-column="14" selection-end-line="1" selection-end-column="25" />
             </state>
           </provider>
         </entry>
@@ -46,11 +105,8 @@
       <file leaf-file-name="SignTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/Sign/SignTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1275">
-              <caret line="86" column="10" selection-start-line="86" selection-start-column="10" selection-end-line="86" selection-end-column="10" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="292">
+              <caret line="281" column="34" selection-start-line="281" selection-start-column="34" selection-end-line="281" selection-end-column="34" />
             </state>
           </provider>
         </entry>
@@ -68,7 +124,25 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>decimal</find>
+      <find>new BigDecimal(0.160000).setScale(6, BigDecimal.ROUND_DOWN)</find>
+      <find>new BigDecimal(371.20).setScale(2, BigDecimal.ROUND_DOWN)</find>
+      <find>new BigDecimal(1.600000).setScale(6, BigDecimal.ROUND_DOWN)</find>
+      <find>CImpuesto</find>
+      <find>ComprobanteDocument.Comprobante.Impuestos.Traslados</find>
+      <find>\n</find>
+      <find>signGet</find>
+      <find>testcfdibu</find>
+      <find>removeWhiteSpaces</find>
+      <find>byte[]</find>
+      <find>system</find>
+      <find>Comprobante.</find>
+      <find>system.out</find>
     </findStrings>
+    <replaceStrings>
+      <replace>&quot;0.160000&quot;</replace>
+      <replace>&quot;200.00&quot;</replace>
+      <replace>&quot;1.600000&quot;</replace>
+    </replaceStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -76,22 +150,26 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/Sign/Sign.java" />
         <option value="$PROJECT_DIR$/src/test/java/SW_Toolkit_Java_UT.java" />
         <option value="$PROJECT_DIR$/src/test/java/SWToolkitJavaUT.java" />
         <option value="$PROJECT_DIR$/src/test/java/swjavatoolkitimport.java" />
         <option value="$PROJECT_DIR$/src/test/java/Test/Toolkit/UTToolkit.java" />
         <option value="$PROJECT_DIR$/src/test/java/swjavatoolkit.java" />
-        <option value="$PROJECT_DIR$/src/test/java/Test/Toolkit/testToolkit.java" />
+        <option value="$PROJECT_DIR$/xml33.xml" />
+        <option value="$PROJECT_DIR$/../sw-sdk-java/src/test/java/Tests/Builder/SWBuilderTest.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/src/test/java/Sign/SignTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Sign/Sign.java" />
+        <option value="$PROJECT_DIR$/src/test/java/Test/Toolkit/testToolkit.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="1922" />
-    <option name="y" value="13" />
-    <option name="width" value="1936" />
-    <option name="height" value="1056" />
+    <option name="x" value="2535" />
+    <option name="y" value="226" />
+    <option name="width" value="1378" />
+    <option name="height" value="766" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -125,52 +203,16 @@
               <item name="sw-java-toolkit" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="sw-java-toolkit" type="b2602c69:ProjectViewProjectNode" />
               <item name="sw-java-toolkit" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="Resources" type="462c0819:PsiDirectoryNode" />
+              <item name="target" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="sw-java-toolkit" type="b2602c69:ProjectViewProjectNode" />
-              <item name="sw-java-toolkit" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="Sign" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="sw-java-toolkit" type="b2602c69:ProjectViewProjectNode" />
-              <item name="sw-java-toolkit" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="sw-java-toolkit" type="b2602c69:ProjectViewProjectNode" />
-              <item name="sw-java-toolkit" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="sw-java-toolkit" type="b2602c69:ProjectViewProjectNode" />
-              <item name="sw-java-toolkit" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="Sign" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="sw-java-toolkit" type="b2602c69:ProjectViewProjectNode" />
-              <item name="sw-java-toolkit" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="Toolkit" type="462c0819:PsiDirectoryNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
             </path>
           </expand>
           <select />
@@ -181,18 +223,24 @@
   <component name="PropertiesComponent">
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/test/java" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../sw-sdk-java/src/test/java/Tests/Builder/SWBuilderTest.java" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="configurable.group.editor" />
+    <property name="settings.editor.selected.configurable" value="project.propDebugger" />
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
       <recent name="Sign" />
     </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="Test.Toolkit" />
+    </key>
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\SMARTERWEB\Documents\sw-java-toolkit\src\main" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -207,29 +255,12 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.SignTest.testGetSign">
+  <component name="RunManager" selected="JUnit.testToolkit.testJavaVersion">
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
-    <configuration name="SW_Toolkit_Java_UT.Test_Base64_Key_Encode" type="JUnit" factoryName="JUnit">
-      <module name="test" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="Test.Toolkit" />
-      <option name="MAIN_CLASS_NAME" value="Test.Toolkit.testToolkit" />
-      <option name="METHOD_NAME" value="testValidity_start_Cert_Get" />
-      <option name="TEST_OBJECT" value="class" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" value="" />
-      <option name="WORKING_DIRECTORY" value="file://%MODULE_WORKING_DIR%" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <patterns />
-    </configuration>
-    <configuration name="SignTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="test" />
+    <configuration name="SignTest.testCfdiBuilder" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="sw-java-toolkit" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="Sign.*" />
@@ -240,53 +271,7 @@
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="Sign" />
       <option name="MAIN_CLASS_NAME" value="Sign.SignTest" />
-      <option name="METHOD_NAME" />
-      <option name="TEST_OBJECT" value="class" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <patterns />
-    </configuration>
-    <configuration name="SignTest.signGet" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Sign.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="Sign" />
-      <option name="MAIN_CLASS_NAME" value="Sign.SignTest" />
-      <option name="METHOD_NAME" value="signGet" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <patterns />
-    </configuration>
-    <configuration name="SignTest.testGetSign" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Sign.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="Sign" />
-      <option name="MAIN_CLASS_NAME" value="Sign.SignTest" />
-      <option name="METHOD_NAME" value="testGetSign" />
+      <option name="METHOD_NAME" value="testCfdiBuilder" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -313,8 +298,8 @@
       </option>
       <patterns />
     </configuration>
-    <configuration name="testToolkit.testBase64_Key_Encode" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="test" />
+    <configuration name="testToolkit (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="sw-java-toolkit" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="Test.Toolkit.*" />
@@ -325,8 +310,25 @@
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="Test.Toolkit" />
       <option name="MAIN_CLASS_NAME" value="Test.Toolkit.testToolkit" />
-      <option name="METHOD_NAME" value="testBase64_Key_Encode" />
-      <option name="TEST_OBJECT" value="method" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration name="testToolkit" type="JUnit" factoryName="JUnit">
+      <module name="sw-java-toolkit" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="Test.Toolkit" />
+      <option name="MAIN_CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="TEST_OBJECT" value="package" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" value="" />
       <option name="WORKING_DIRECTORY" value="file://%MODULE_WORKING_DIR%" />
@@ -336,8 +338,8 @@
       </option>
       <patterns />
     </configuration>
-    <configuration name="testToolkit.testValidity_end_Cert_Get" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="test" />
+    <configuration name="testToolkit.testCfdiBuilder" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="sw-java-toolkit" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="Test.Toolkit.*" />
@@ -348,11 +350,57 @@
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="Test.Toolkit" />
       <option name="MAIN_CLASS_NAME" value="Test.Toolkit.testToolkit" />
-      <option name="METHOD_NAME" value="testValidity_end_Cert_Get" />
+      <option name="METHOD_NAME" value="testCfdiBuilder" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" value="" />
-      <option name="WORKING_DIRECTORY" value="file://%MODULE_WORKING_DIR%" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration name="testToolkit.testJavaVersion" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="sw-java-toolkit" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Test.Toolkit.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="Test.Toolkit" />
+      <option name="MAIN_CLASS_NAME" value="Test.Toolkit.testToolkit" />
+      <option name="METHOD_NAME" value="testJavaVersion" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration name="testToolkit.testgetOriginalString" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="sw-java-toolkit" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Test.Toolkit.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="Test.Toolkit" />
+      <option name="MAIN_CLASS_NAME" value="Test.Toolkit.testToolkit" />
+      <option name="METHOD_NAME" value="testgetOriginalString" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
       <option name="PASS_PARENT_ENVS" value="true" />
       <option name="TEST_SEARCH_SCOPE">
         <value defaultName="singleModule" />
@@ -382,20 +430,20 @@
       <listeners />
     </configuration>
     <list>
-      <item itemvalue="JUnit.SW_Toolkit_Java_UT.Test_Base64_Key_Encode" />
-      <item itemvalue="JUnit.testToolkit.testValidity_end_Cert_Get" />
-      <item itemvalue="JUnit.testToolkit.testBase64_Key_Encode" />
-      <item itemvalue="JUnit.SignTest" />
-      <item itemvalue="JUnit.SignTest.signGet" />
-      <item itemvalue="JUnit.SignTest.testGetSign" />
+      <item itemvalue="JUnit.testToolkit" />
+      <item itemvalue="JUnit.testToolkit.testCfdiBuilder" />
+      <item itemvalue="JUnit.SignTest.testCfdiBuilder" />
+      <item itemvalue="JUnit.testToolkit (1)" />
+      <item itemvalue="JUnit.testToolkit.testgetOriginalString" />
+      <item itemvalue="JUnit.testToolkit.testJavaVersion" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.SignTest.testGetSign" />
-        <item itemvalue="JUnit.SignTest" />
-        <item itemvalue="JUnit.SignTest.signGet" />
-        <item itemvalue="JUnit.testToolkit.testValidity_end_Cert_Get" />
-        <item itemvalue="JUnit.testToolkit.testBase64_Key_Encode" />
+        <item itemvalue="JUnit.testToolkit.testJavaVersion" />
+        <item itemvalue="JUnit.testToolkit.testgetOriginalString" />
+        <item itemvalue="JUnit.testToolkit (1)" />
+        <item itemvalue="JUnit.SignTest.testCfdiBuilder" />
+        <item itemvalue="JUnit.testToolkit.testCfdiBuilder" />
       </list>
     </recent_temporary>
   </component>
@@ -413,43 +461,43 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="testToolkit_testBusiness_Name_Get - 2018.06.21 at 12h 22m 34s.xml">
-      <configuration name="testToolkit.testBusiness_Name_Get" configurationId="JUnit" />
+    <history-entry file="testToolkit_testCfdiBuilder - 2018.07.05 at 14h 19m 40s.xml">
+      <configuration name="testToolkit.testCfdiBuilder" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="testToolkit_testBase64_Cer_Encode - 2018.06.21 at 12h 22m 42s.xml">
-      <configuration name="testToolkit.testBase64_Cer_Encode" configurationId="JUnit" />
+    <history-entry file="testToolkit_testCfdiBuilder - 2018.07.05 at 14h 22m 32s.xml">
+      <configuration name="testToolkit.testCfdiBuilder" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="testToolkit_testBase64_Cer_Encode - 2018.06.21 at 12h 24m 28s.xml">
-      <configuration name="testToolkit.testBase64_Cer_Encode" configurationId="JUnit" />
+    <history-entry file="testToolkit_testCfdiBuilder - 2018.07.05 at 14h 22m 33s.xml">
+      <configuration name="testToolkit.testCfdiBuilder" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="UTToolkit - 2018.06.21 at 12h 24m 41s.xml">
-      <configuration name="UTToolkit" configurationId="JUnit" />
+    <history-entry file="testToolkit_testCfdiBuilder - 2018.07.05 at 14h 24m 34s.xml">
+      <configuration name="testToolkit.testCfdiBuilder" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="SW_Toolkit_Java_UT_Test_Base64_Key_Encode - 2018.06.21 at 12h 26m 41s.xml">
-      <configuration name="SW_Toolkit_Java_UT.Test_Base64_Key_Encode" configurationId="JUnit" />
+    <history-entry file="testToolkit_testCfdiBuilder - 2018.07.05 at 14h 25m 17s.xml">
+      <configuration name="testToolkit.testCfdiBuilder" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="SignTest - 2018.06.21 at 12h 35m 52s.xml">
-      <configuration name="SignTest" configurationId="JUnit" />
+    <history-entry file="SignTest_testCfdiBuilder - 2018.07.05 at 14h 25m 51s.xml">
+      <configuration name="SignTest.testCfdiBuilder" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="SignTest_signGet - 2018.06.25 at 13h 18m 25s.xml">
-      <configuration name="SignTest.signGet" configurationId="JUnit" />
+    <history-entry file="testToolkit_(1) - 2018.07.05 at 15h 43m 02s.xml">
+      <configuration name="testToolkit (1)" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="SignTest_signGet - 2018.06.25 at 13h 18m 27s.xml">
-      <configuration name="SignTest.signGet" configurationId="JUnit" />
+    <history-entry file="testToolkit_testJavaVersion - 2018.07.05 at 16h 30m 21s.xml">
+      <configuration name="testToolkit.testJavaVersion" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="SignTest - 2018.06.26 at 13h 57m 33s.xml">
-      <configuration name="SignTest" configurationId="JUnit" />
+    <history-entry file="testToolkit_testCfdiBuilder - 2018.07.05 at 16h 30m 21s.xml">
+      <configuration name="testToolkit.testCfdiBuilder" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="SignTest_testGetSign - 2018.06.26 at 13h 58m 37s.xml">
-      <configuration name="SignTest.testGetSign" configurationId="JUnit" />
+    <history-entry file="testToolkit_testJavaVersion - 2018.07.05 at 16h 30m 27s.xml">
+      <configuration name="testToolkit.testJavaVersion" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="1912" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Messages" order="7" weight="0.32897604" />
       <window_info anchor="right" id="Palette&#9;" order="3" />
       <window_info id="Image Layers" order="2" />
       <window_info anchor="right" id="Capture Analysis" order="3" />
@@ -457,16 +505,16 @@
       <window_info anchor="right" id="Maven Projects" order="3" />
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.32897604" />
-      <window_info anchor="bottom" id="Terminal" order="7" weight="0.32897604" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.1546841" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.23229167" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="2" />
       <window_info anchor="right" id="Theme Preview" order="3" />
       <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.39978212" />
+      <window_info anchor="bottom" id="Debug" order="3" visible="true" weight="0.39978212" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Coverage" order="4" side_tool="true" visible="true" weight="0.20364584" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -474,165 +522,47 @@
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Messages" order="7" weight="0.32897604" />
     </layout>
+  </component>
+  <component name="UnloadedModulesList">
+    <module name="main" />
+    <module name="test" />
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="2" />
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/Test/Toolkit/testToolkit.java</url>
+          <line>131</line>
+          <properties />
+          <option name="timeStamp" value="9" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/Test/Toolkit/testToolkit.java</url>
+          <line>144</line>
+          <properties />
+          <option name="timeStamp" value="11" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/Test/Toolkit/testToolkit.java</url>
+          <line>281</line>
+          <properties />
+          <option name="timeStamp" value="23" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/Test/Toolkit/testToolkit.java</url>
+          <line>123</line>
+          <properties />
+          <option name="timeStamp" value="24" />
+        </line-breakpoint>
+      </breakpoints>
+      <option name="time" value="27" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/Sign/Sign.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-729">
-          <caret line="20" column="39" selection-start-line="20" selection-start-column="39" selection-end-line="20" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/Test/Toolkit/testToolkit.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="18" column="4" selection-start-line="18" selection-start-column="4" selection-end-line="18" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/Test/Toolkit/testToolkit.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="935">
-          <caret line="55" column="8" selection-start-line="55" selection-start-column="8" selection-end-line="57" selection-end-column="48" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/xml33.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/Sign/SignTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1224">
-          <caret line="72" column="10" selection-start-line="72" selection-start-column="10" selection-end-line="72" selection-end-column="10" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/Test/Toolkit/testToolkit.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="935">
-          <caret line="55" column="8" selection-start-line="55" selection-start-column="8" selection-end-line="57" selection-end-column="48" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/Sign/SignTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="901">
-          <caret line="53" column="9" lean-forward="true" selection-start-line="53" selection-start-column="9" selection-end-line="53" selection-end-column="9" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Sign/Sign.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="442">
-          <caret line="26" lean-forward="true" selection-start-line="26" selection-end-line="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/Test/Toolkit/testToolkit.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="612">
-          <caret line="36" column="21" selection-start-line="36" selection-start-column="21" selection-end-line="36" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Sign/Sign.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1666">
-          <caret line="98" column="41" selection-start-line="98" selection-start-column="25" selection-end-line="98" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/Test/Toolkit/testToolkit.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="646">
-          <caret line="38" column="5" lean-forward="true" selection-start-line="38" selection-start-column="5" selection-end-line="38" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Sign/Sign.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1241">
-          <caret line="73" column="41" selection-start-line="73" selection-start-column="25" selection-end-line="73" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/swjavatoolkitimport.java" />
-    <entry file="file://$PROJECT_DIR$/src/test/java/Test/Toolkit/testToolkit.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1088">
-          <caret line="69" column="46" lean-forward="true" selection-start-line="69" selection-start-column="46" selection-end-line="69" selection-end-column="46" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Sign/Sign.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="867">
-          <caret line="73" column="41" selection-start-line="73" selection-start-column="25" selection-end-line="73" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/swjavatoolkitimport.java" />
-    <entry file="file://$PROJECT_DIR$/src/test/java/Test/Toolkit/testToolkit.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="13" column="1" lean-forward="true" selection-start-line="13" selection-start-column="1" selection-end-line="13" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Sign/Sign.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1241">
-          <caret line="73" column="41" selection-start-line="73" selection-start-column="25" selection-end-line="73" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/swjavatoolkitimport.java" />
-    <entry file="file://$PROJECT_DIR$/src/test/java/Test/Toolkit/testToolkit.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/SW_Toolkit_Java_UT.java" />
-    <entry file="jar://$PROJECT_DIR$/target/sw-java-toolkit-0.0.1-jar-with-dependencies.jar!/Sign/Sign.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2431">
-          <caret line="143" column="31" selection-start-line="143" selection-start-column="25" selection-end-line="143" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Sign/Sign.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="867">
-          <caret line="73" column="41" selection-start-line="73" selection-start-column="25" selection-end-line="73" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/SW_Toolkit_Java_UT.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/Sign/Sign.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1241">
-          <caret line="73" column="41" selection-start-line="73" selection-start-column="25" selection-end-line="73" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/SW_Toolkit_Java_UT.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/Sign/Sign.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -682,13 +612,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/target/classes/Sign/Sign.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="124" column="79" selection-start-line="124" selection-start-column="60" selection-end-line="124" selection-end-column="79" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/target/classes/Sign/Sign.class" />
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_161/src.zip!/com/sun/org/apache/bcel/internal/classfile/Utility.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
@@ -717,48 +641,237 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://$PROJECT_DIR$/target/sw-java-toolkit-0.0.1-jar-with-dependencies.jar!/mx/gob/sat/cfd/x3/ComprobanteDocument.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="197">
-          <caret line="237" column="26" lean-forward="true" selection-start-line="237" selection-start-column="26" selection-end-line="237" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="jar://$PROJECT_DIR$/target/sw-java-toolkit-0.0.1-jar-with-dependencies.jar!/mx/gob/sat/cfd/x3/ComprobanteDocument.class" />
     <entry file="file://$PROJECT_DIR$/src/test/java/SW_Toolkit_Java_UT.java" />
     <entry file="file://$PROJECT_DIR$/src/test/java/SWToolkitJavaUT.java" />
     <entry file="file://$PROJECT_DIR$/src/test/java/swjavatoolkitimport.java" />
     <entry file="file://$PROJECT_DIR$/src/test/java/swjavatoolkit.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/Sign/Sign.java">
+    <entry file="jar://$PROJECT_DIR$/target/sw-java-toolkit-0.0.1-jar-with-dependencies.jar!/Sign/Sign.class" />
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_161/src.zip!/java/net/URLClassLoader.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="175">
+          <caret line="380" selection-start-line="380" selection-end-line="380" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/fasterxml/jackson/dataformat/jackson-dataformat-xml/2.9.4/jackson-dataformat-xml-2.9.4.jar!/mx/gob/sat/cfd/x3/ComprobanteDocument.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
-          <caret line="31" column="5" selection-start-line="31" selection-start-column="5" selection-end-line="31" selection-end-column="5" />
+          <caret line="36" column="17" selection-start-line="36" selection-start-column="17" selection-end-line="36" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/src/main/cfdv33.jar!/mx/gob/sat/sitioInternet/cfd/catalogos/CImpuesto.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="32">
+          <caret line="5" column="8" selection-start-line="5" selection-start-column="8" selection-end-line="5" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../sw-sdk-java/src/test/java/Tests/Builder/SWBuilderTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="294" column="51" lean-forward="true" selection-start-line="294" selection-start-column="51" selection-end-line="294" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/xmlbeans/xmlbeans/2.3.0/xmlbeans-2.3.0.jar!/org/apache/xmlbeans/XmlOptions.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="231">
+          <caret line="91" lean-forward="true" selection-start-line="91" selection-end-line="91" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_161/src.zip!/org/w3c/dom/Element.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="388">
+          <caret line="352" column="42" selection-start-line="352" selection-start-column="20" selection-end-line="352" selection-end-column="42" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/xml33.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/Test/Toolkit/testToolkit.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="27" column="38" selection-start-line="27" selection-start-column="38" selection-end-line="27" selection-end-column="38" />
+        <state relative-caret-position="221">
+          <caret line="13" column="21" selection-start-line="13" selection-start-column="21" selection-end-line="13" selection-end-column="21" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$PROJECT_DIR$/target/sw-java-toolkit-0.0.1-jar-with-dependencies.jar!/Sign/Sign.class">
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_161/src.zip!/javax/xml/bind/DatatypeConverter.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="52" column="18" selection-start-line="52" selection-start-column="18" selection-end-line="52" selection-end-column="18" />
+        <state relative-caret-position="197">
+          <caret line="609" column="25" selection-start-line="609" selection-start-column="25" selection-end-line="609" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_161/src.zip!/com/sun/org/apache/xerces/internal/impl/dv/util/Base64.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="197">
+          <caret line="108" column="25" selection-start-line="108" selection-start-column="25" selection-end-line="108" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_161/src.zip!/java/io/FileInputStream.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="197">
+          <caret line="137" selection-start-line="137" selection-end-line="137" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_161/src.zip!/java/security/cert/CertificateFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="372" column="17" lean-forward="true" selection-start-line="372" selection-start-column="17" selection-end-line="372" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor />
+          <second_editor />
+        </state>
+      </provider>
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="33" column="3" selection-start-line="33" selection-start-column="3" selection-end-line="33" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/servicemix/bundles/org.apache.servicemix.bundles.not-yet-commons-ssl/0.3.11_1/org.apache.servicemix.bundles.not-yet-commons-ssl-0.3.11_1.jar!/org/apache/commons/ssl/PKCS8Key.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="146" selection-start-line="146" selection-end-line="146" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/src/main/cfdv33.jar!/mx/gob/sat/cfd/x3/ComprobanteDocument.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="527">
+          <caret line="34" column="17" selection-start-line="34" selection-start-column="17" selection-end-line="34" selection-end-column="17" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/xmlbeans/xmlbeans/2.3.0/xmlbeans-2.3.0.jar!/org/apache/xmlbeans/XmlTokenSource.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="322">
+          <caret line="67" column="26" selection-start-line="67" selection-start-column="14" selection-end-line="67" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_161/src.zip!/java/net/URL.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="350">
+          <caret line="592" selection-start-line="592" selection-end-line="592" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_161/src.zip!/javax/xml/parsers/DocumentBuilder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-139">
+          <caret line="224" column="29" selection-start-line="224" selection-start-column="29" selection-end-line="224" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12-sources.jar!/org/junit/runner/JUnitCore.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="184">
+          <caret line="141" selection-start-line="141" selection-end-line="141" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_161/src.zip!/javax/xml/transform/Transformer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="175">
+          <caret line="105" column="25" selection-start-line="105" selection-start-column="25" selection-end-line="105" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12-sources.jar!/org/junit/internal/runners/model/ReflectiveCallable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" selection-start-line="11" selection-end-line="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12-sources.jar!/org/junit/runners/model/FrameworkMethod.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="65">
+          <caret line="46" selection-start-line="46" selection-end-line="46" />
+          <folding>
+            <element signature="e#1464#1658#0" expanded="true" />
+            <element signature="e#1657#1658#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12-sources.jar!/org/junit/internal/runners/statements/InvokeMethod.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="17" selection-start-line="17" selection-end-line="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12-sources.jar!/org/junit/runners/BlockJUnit4ClassRunner.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="175">
+          <caret line="79" selection-start-line="79" selection-end-line="79" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12-sources.jar!/org/junit/runners/ParentRunner.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="167">
+          <caret line="290" selection-start-line="290" selection-end-line="290" />
+          <folding>
+            <element signature="e#2922#2923#0" expanded="true" />
+            <element signature="e#2966#2967#0" expanded="true" />
+            <element signature="e#11040#11204#0" expanded="true" />
+            <element signature="e#11203#11204#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/Sign/SignTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1275">
-          <caret line="86" column="10" selection-start-line="86" selection-start-column="10" selection-end-line="86" selection-end-column="10" />
+        <state relative-caret-position="292">
+          <caret line="281" column="34" selection-start-line="281" selection-start-column="34" selection-end-line="281" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Sign/Sign.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="48" column="59" selection-start-line="48" selection-start-column="59" selection-end-line="48" selection-end-column="59" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/Test/Toolkit/testToolkit.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="71">
+          <caret line="55" selection-start-line="55" selection-end-line="55" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="50" column="25" lean-forward="true" selection-start-line="50" selection-start-column="25" selection-end-line="50" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/main.iml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="25" selection-start-line="1" selection-start-column="14" selection-end-line="1" selection-end-column="25" />
         </state>
       </provider>
     </entry>
@@ -768,10 +881,12 @@
       <state key="ArtifactsStructureConfigurable.UI">
         <settings>
           <artifact-editor />
+          <last-edited>sw-java-toolkit</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
                 <option value="0.2" />
+                <option value="0.5" />
               </list>
             </option>
           </splitter-proportions>
@@ -814,12 +929,11 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>main</last-edited>
+          <last-edited>sw-java-toolkit</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
                 <option value="0.2" />
-                <option value="0.6" />
               </list>
             </option>
           </splitter-proportions>
@@ -827,7 +941,7 @@
       </state>
       <state key="ProjectLibrariesConfigurable.UI">
         <settings>
-          <last-edited>cfdv33</last-edited>
+          <last-edited>Maven: com.fasterxml.jackson.dataformat:jackson-dataformat-xml:2.9.4</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
